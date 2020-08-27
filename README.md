@@ -40,8 +40,13 @@ We have also included the code so others may reproduce or improve upon it.
 
 ## Team
 
-Danielle Lyles - Data and Evaluation Scientist    
-Peter Shaffery - Postdoctoral Research Assistant  
+The team below are all affiliated with The Office of Data Analytics (ODA) at
+The Universty of Colorado, Boulder.
+
+The ODA mission is to foster an understanding of institutional knowledge. This is done by transforming data into actionable intelligence; aiding the decision making processes throughout the university.
+
+Danielle Lyles - Data and Evaluation Scientist  
+Peter Shaffery - Postdoctoral Research Assistant
 Ulises Guzman Sol - Data Engineer  
 Seth Spielman - Chief Data Officer   
 Brad Weiner - Director of Data Science    
