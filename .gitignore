@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+mturk/
+.ipynb_checkpoints/*
+README.html
+ceeb_nces_crosswalk.Rproj
+hs_crosswalk_build.ipynb
+
+
