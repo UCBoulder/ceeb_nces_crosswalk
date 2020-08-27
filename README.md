@@ -1,6 +1,26 @@
-# Using Mechanical Turk to Produce an NCES to CEEB Crosswalk
+## An Effort to Crowdsource a Universal NCES to CEEB Crosswalk
 
-## Introduction
+### Our Goal
+
+This project started in the same way that many educational research projects do: we wanted
+to understand more about the secondary institutions that graduate prospective CU Boulder students. 
+
+Once we bumped into the well-known crosswalk problem, our team added the goal to crowdsource an
+open-source, publicly available, NCES to CEEB crosswalk.
+
+To finish this, we need your help.
+
+### How to Contribute
+
+If you would you like to augment this data set with currently unknown or unlisted schools, there are
+two ways to contribute.
+
+1. **The Github Way** - Fork this repository, use the code and process as much as you'd like, and then submit a pull request. We will review the updates and the merge your branch with the master file you see here.
+
+2. 
+
+
+### Introduction
 Merging two different data sets requires a unique key. Unfortunately, there are often
 situations when two or more related data sets exist, yet no useful crosswalk is available. 
 
@@ -10,7 +30,7 @@ This project attempts to create a crosswalk between the National Center for Educ
 
 Other institutional researchers and scholars [1](https://ire.uncg.edu/research/NCES_CEEB_Table/),[2](https://help.liaisonedu.com/WebAdMIT_Help_Center/Documents_and_Reference_Guides/Master_College_Code_List) have tackled this problem, often using fuzzy matching methods which are helpful, but incomplete.  This project attempts to provide a reproducible, open-source framework to solve this problem.
 
-## Method
+### Method
 
 The [Office of Data Analytics](https://www.colorado.edu/oda/) at 
 The [University of Colorado Boulder](https://www.colorado.edu) utlized three methods to create as complete of a file that included all secondary schools that had recently submitted applications to our institution. 
@@ -23,7 +43,7 @@ The remaining cases were set up as jobs for workers using Amazon's [Mechanical T
 
 The final file, which is included here, contains 21,592 matched secondary schools in the United States with both CEEB codes and NCES IDS.
 
-## Contents
+### Contents
 
 This repo contains all of the raw data files including 
 
@@ -38,25 +58,25 @@ https://github.com/cu-boulder/ceeb_nces_crosswalk/blob/master/oda_nces_ceeb_cros
 
 We have also included the code so others may reproduce or improve upon it.
 
-## Team
+### Team
 
 The team below are all affiliated with The Office of Data Analytics (ODA) at
 The Universty of Colorado, Boulder.
 
 The ODA mission is to foster an understanding of institutional knowledge. This is done by transforming data into actionable intelligence; aiding the decision making processes throughout the university.
 
-Danielle Lyles - Data and Evaluation Scientist  
-Peter Shaffery - Postdoctoral Research Assistant
-Ulises Guzman Sol - Data Engineer  
-Seth Spielman - Chief Data Officer   
-Brad Weiner - Director of Data Science    
+[Danielle Lyles](https://github.com/Danielle-Lyles) - Data and Evaluation Scientist  
+[Peter Shaffery](https://github.com/proof-by-accident) - Postdoctoral Research Assistant  
+[Ulises Guzman Sol](https://github.com/ulgu3559) - Data Engineer  
+[Seth Spielman](https://github.com/geoss) - Chief Data Officer   
+[Brad Weiner](https://github.com/bradweiner) - Director of Data Science    
 
-## Terms of Use
+### Terms of Use
 
 Pull requests and data additions are welcome. Please feel free to 
 use these data or this strategy on your own campus.
 
-## Code of Conduct
+### Code of Conduct
 
 Contributors and users of this repository are asked to adhere to the University of Colorado
 [code of conduct](https://www.cu.edu/ope/aps/2027) which is stated below.
