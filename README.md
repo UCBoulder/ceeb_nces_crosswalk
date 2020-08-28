@@ -15,7 +15,7 @@ To finish this, we need your help.
 If you would you like to augment this data set with currently unknown or unlisted schools, there are
 two ways to contribute.
 
-1. **The Github Way** - Fork this repository, augment the data file and then submit a pull request with the data file in the same format as _oda_nces_ceeb_crosswalk.csv_. We will review the updates and the merge your branch with the master file you see here.
+1. **The Github Way** - Fork this repository, augment the data file and then submit a pull request with the data file in the same format as _oda_nces_ceeb_crosswalk.csv_. We will review the updates and then merge your branch with the master file you see here.
 
 2. **The Email Way** - Clone this repository or download the master data file. Update _oda_nces_ceeb_crosswalk.csv_ with any new or updated information and simply email it to brad dot weiner at colorado dot edu. We will update the file twice-yearly with all received additions.
 
