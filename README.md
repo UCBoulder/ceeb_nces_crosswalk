@@ -36,7 +36,7 @@ the [University of Colorado Boulder](https://www.colorado.edu) utilized three me
 
 First, we looked for others who have done some or all of this work successfully. To our knowledge, the best data set was created by Mark Davenport at the [University of North Carolina - Greensboro](https://ire.uncg.edu/). This set (known in the code as the "Davenport Set"), was considered the "base". Our first pass was leaning on the Davenport set for any records that had already been matched.
 
-Second, we used fuzzy matching techniques to merge data from both the NCES Common Core of Data and the  NCES Private School Survey to any records _not_ in the Davenport Data Set. Matches were scored based on _school name_, _city_, _state_ and _zip code_. It was assumed that few, if any schools would share all four of those characteristics. 
+Second, we used fuzzy matching techniques to merge data from both the NCES Common Core of Data and the  NCES Private School Survey to any records _not_ in the Davenport Data Set. Matches were scored based on _school name_ and _zip code_. It was assumed that few, if any schools would share all four of those characteristics. 
 
 The remaining cases were set up as jobs for workers using Amazon's [Mechanical Turk](https://www.mturk.com/). Mechanical Turk is a crowdsourcing website that allows for _requesters_ like CU Boulder, to hire _crowdworkers_ to assist with work that require human intervention. In our case, we wanted crowdworkers to manually search for high schools in the NCES database, and input the correct code whenever possible. To increase accuracy, we covered each request with 3-4 independent workers so that discrepancies could be sorted with a tie-breaking aggregation of the workers.
 
@@ -46,7 +46,7 @@ The final file, which is included here, contains 21,592 matched secondary school
 
 This repo contains all of the raw data files including 
 
-* [NCES Private School Survey data for 2017-2018](https://github.com/cu-boulder/ceeb_nces_crosswalk/blob/master/data/davenport_nces_ceeb_crosswalk.xlsx)
+* [NCES Private School Survey data for 2017-2018](https://nces.ed.gov/surveys/pss/)
 * The 'Davenport' [data set](https://github.com/cu-boulder/ceeb_nces_crosswalk/blob/master/data/davenport_nces_ceeb_crosswalk.xlsx) generously provided by Mark Davenport at the University of North Carolina-Greensboro
 * [High schools](https://github.com/cu-boulder/ceeb_nces_crosswalk/blob/master/data/ucb_apps_hs.csv) from which The University of Colorado Boulder has received applications, intended to be the full universe of matches for our purposes
 * A listing of [state codes](https://github.com/cu-boulder/ceeb_nces_crosswalk/blob/master/data/state_codes.csv) for matching
