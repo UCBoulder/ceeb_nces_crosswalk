@@ -32,7 +32,7 @@ Other institutional researchers and scholars [1](https://ire.uncg.edu/research/N
 ### Method
 
 The [Office of Data Analytics](https://www.colorado.edu/oda/) at 
-the [University of Colorado Boulder](https://www.colorado.edu) utilized three methods to create as complete of a file including all secondary schools that had recently submitted applications to our institution. 
+the [University of Colorado Boulder](https://www.colorado.edu) utilized three methods to create as complete of a file to include all secondary schools that had recently submitted applications to our institution. 
 
 First, we looked for others who have done some or all of this work successfully. To our knowledge, the best data set was created by Mark Davenport at the [University of North Carolina - Greensboro](https://ire.uncg.edu/). This set (known in the code as the "Davenport Set"), was considered the "base". Our first pass was leaning on the Davenport set for any records that had already been matched.
 
