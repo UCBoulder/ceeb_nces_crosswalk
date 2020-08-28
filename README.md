@@ -15,7 +15,7 @@ To finish this, we need your help.
 If you would you like to augment this data set with currently unknown or unlisted schools, there are
 two ways to contribute.
 
-1. **The Github Way** - Fork this repository, augment the data file and then submit a pull request with in the same format as _oda_nces_ceeb_crosswalk.csv_. We will review the updates and the merge your branch with the master file you see here.
+1. **The Github Way** - Fork this repository, augment the data file and then submit a pull request with the data file in the same format as _oda_nces_ceeb_crosswalk.csv_. We will review the updates and the merge your branch with the master file you see here.
 
 2. **The Email Way** - Clone this repository or download the master data file. Update _oda_nces_ceeb_crosswalk.csv_ with any new or updated information and simply email it to brad dot weiner at colorado dot edu. We will update the file twice-yearly with all received additions.
 
@@ -23,16 +23,16 @@ two ways to contribute.
 Merging two different data sets requires a unique key. Unfortunately, there are often
 situations when two or more related data sets exist, yet no useful crosswalk is available. 
 
-This is a long-standing challenege in educational policy because performance and conditions at one level of education (Pre-K, K-12), might longitudinally explain performance in post-secondary institutions and beyond.
+This is a long-standing challenge in educational policy because performance and conditions at one level of education (Pre-K, K-12), might longitudinally explain performance in post-secondary institutions and beyond.
 
-This project attempts to create a crosswalk between the National Center for Education Statistics (NCES) secondary school data the codes utilized by national post-secondary entrance examinations like the ACT and SAT. These codes, often referred to as "CEEB" codes, uniquely identify the secondary school in which a test-taking student is graduating.  
+This project attempts to create a crosswalk between the National Center for Education Statistics (NCES) secondary school data and the codes utilized by national post-secondary entrance examinations like the ACT and SAT. These codes, often referred to as "CEEB" codes, uniquely identify the secondary school in which a test-taking student is graduating.  
 
 Other institutional researchers and scholars [1](https://ire.uncg.edu/research/NCES_CEEB_Table/),[2](https://help.liaisonedu.com/WebAdMIT_Help_Center/Documents_and_Reference_Guides/Master_College_Code_List) have tackled this problem, often using fuzzy matching methods which are helpful, but incomplete.  This project attempts to provide a reproducible, open-source framework to solve this problem.
 
 ### Method
 
 The [Office of Data Analytics](https://www.colorado.edu/oda/) at 
-The [University of Colorado Boulder](https://www.colorado.edu) utlized three methods to create as complete of a file that included all secondary schools that had recently submitted applications to our institution. 
+the [University of Colorado Boulder](https://www.colorado.edu) utilized three methods to create as complete of a file including all secondary schools that had recently submitted applications to our institution. 
 
 First, we looked for others who have done some or all of this work successfully. To our knowledge, the best data set was created by Mark Davenport at the [University of North Carolina - Greensboro](https://ire.uncg.edu/). This set (known in the code as the "Davenport Set"), was considered the "base". Our first pass was leaning on the Davenport set for any records that had already been matched.
 
