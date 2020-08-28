@@ -46,7 +46,7 @@ The final file, which is included here, contains 21,592 matched secondary school
 
 This repo contains all of the raw data files including 
 
-* [NCES Private School Survey data for 2017-2018](https://nces.ed.gov/surveys/pss/)
+* [NCES Private School Survey data for 2017-2018](https://github.com/cu-boulder/ceeb_nces_crosswalk/blob/master/data/nces_pss1718.csv)
 * The 'Davenport' [data set](https://github.com/cu-boulder/ceeb_nces_crosswalk/blob/master/data/davenport_nces_ceeb_crosswalk.xlsx) generously provided by Mark Davenport at the University of North Carolina-Greensboro
 * [High schools](https://github.com/cu-boulder/ceeb_nces_crosswalk/blob/master/data/ucb_apps_hs.csv) from which The University of Colorado Boulder has received applications, intended to be the full universe of matches for our purposes
 * A listing of [state codes](https://github.com/cu-boulder/ceeb_nces_crosswalk/blob/master/data/state_codes.csv) for matching
