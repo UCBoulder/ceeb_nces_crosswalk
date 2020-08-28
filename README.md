@@ -57,6 +57,10 @@ https://github.com/cu-boulder/ceeb_nces_crosswalk/blob/master/oda_nces_ceeb_cros
 
 We have also included the code so others may reproduce or improve upon it.
 
+## References
+
+Education Data Portal (Version 0.8.0), Urban Institute, Center on Education Data and Policy, accessed August, 28, 2020, https://educationdata.urban.org/documentation/, [US Department of Education Common Core of Data]
+
 ### Team
 
 The team below are all affiliated with The Office of Data Analytics (ODA) at
