@@ -77,7 +77,10 @@ The ODA mission is to foster an understanding of institutional knowledge. This i
 ### Terms of Use
 
 Pull requests and data additions are welcome. Please feel free to 
-use these data or this strategy on your own campus.
+use these data or this strategy on your own campus. When using, please cite 
+the following DOI.
+
+[![DOI](https://zenodo.org/badge/287609314.svg)](https://zenodo.org/badge/latestdoi/287609314)
 
 ### Code of Conduct
 
