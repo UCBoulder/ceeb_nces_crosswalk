@@ -117,7 +117,11 @@ df <- df %>%
   mutate(HS_DUPED = duplicated(HS_CEEB)) %>%
   as.data.frame(.)
 
+
+# write out new file
+
+write.csv(df, "oda_nces_ceeb_crosswalk.csv",row.names = F)
+
 table(df$HS_DUPED,useNA = "always")
 
-# looks good! Write out .csv file back to data with new file name
 
